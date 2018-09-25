@@ -1,0 +1,24 @@
+= Asciidoctor.js integration with Webpack
+
+== Usage
+
+Install the dependencies:
+
+ $ npm install
+
+Build the project:
+
+ $ npm run build
+
+Open the `index.html` page in your browser.
+You should see the following sentence: "Asciidoctor running on Opal brings AsciiDoc to the browser!".
+
+== Integration
+
+Asciidoctor.js is imported in the file `src/index.js`:
+
+```js
+import Asciidoctor from 'asciidoctor.js';
+```
+
+The `webpack` command will resolve the `import` and generate a bundle in the [.path]_dist_ directory: `dist/bundle.js`.
