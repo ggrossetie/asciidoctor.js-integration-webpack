@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "asciidoctor.js": "1.5.7-rc.1"
+    "asciidoctor.js": "^1.5.7"
   },
   "devDependencies": {
     "webpack": "^4.10.2",
